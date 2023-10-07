@@ -3,9 +3,18 @@
 
 #include <iostream>
 using namespace std;
+
+static void uencho()
+{
+    int a, b;
+    cout << "この関数は掛け算をします。　掛けたい数を入力してください。" << endl;
+    cin >> a >> b;
+    cout << "結果は" << a * b << "です" << endl;
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    uencho();
 }
 
 // プログラムの実行: Ctrl + F5 または [デバッグ] > [デバッグなしで開始] メニュー
